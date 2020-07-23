@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>COnfig_Widget</class>
+ <widget class="QWidget" name="COnfig_Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1456</width>
+    <height>769</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="Title_label">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>20</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>表  计  配  置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Commit_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>630</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Commit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cancle_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>528</x>
+     <y>630</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancle</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>460</y>
+     <width>67</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刻度值</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Value_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1222</x>
+     <y>460</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1126</x>
+     <y>240</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刻度数目</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Kedu_num_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>230</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>280</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>指针开始位置</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>350</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刻度间隔值</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Step_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>340</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>400</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>指针数量</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Point_num_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>390</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Point_start_lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>280</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Big_kedu_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>150</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>大刻度标记</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Cicle_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>200</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>圆心标记</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="Crop_image_label" native="true">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>441</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>40</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>REST地址</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="RESP_ip_linedit">
+   <property name="geometry">
+    <rect>
+     <x>1200</x>
+     <y>40</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="REST_portlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1360</x>
+     <y>40</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>90</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>接收地址</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Recv_ip_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1200</x>
+     <y>90</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Recv_port_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1360</x>
+     <y>90</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Result_show_label">
+   <property name="geometry">
+    <rect>
+     <x>596</x>
+     <y>96</y>
+     <width>451</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
